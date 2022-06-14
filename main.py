@@ -27,7 +27,6 @@ print(f"Мин. сумма заказа: {user_segment['order_price'].min()}\n"
 
 count_of_users = user_segment["uid"].count()
 print(f"Колличество пользователей: {count_of_users}")
-#Итого колличсетво пользователей - 3529
 
 #Экспортируем полученную таблицу
 result = user_segment["uid"]
